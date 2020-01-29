@@ -22,7 +22,6 @@ proc print_gameboard(score: int, win: bool) =
   styledWriteLine(stdout, fgBlue, "Score", resetStyle, ": " ,
                   scoreColor, $(score), resetStyle)
 
-
 proc play() =
   var answer: string
   var score: int
