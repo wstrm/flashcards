@@ -12,7 +12,7 @@ proc play() =
   var score: int
   var win: bool = true
 
-  for c in game.randomCards(toSeq(powerTwo(0, 10))):
+  for c in game.randomCards(toSeq(powerTwo(0, 13))):
     print_gameboard(score, win)
     print_question(c.question)
 
